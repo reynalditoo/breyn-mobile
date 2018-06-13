@@ -1,0 +1,58 @@
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h3 class="mb-0">
+        <button (click)="toggleCaret($event)" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Breyn 
+        </button> 
+      </h3>
+      <i class="fas fa-caret-down"></i>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <p>
+            Non, ce n'est pas mon prénom (Dieu merci). Moi, c'est Reynald. <em>Développeur web</em> exerçant sur <em>Paris</em> et sa région. 
+            <br>
+            Et non, je ne suis pas né <em>développeur</em>. Avant de créer des sites, la vie m'a fait passer par des études de langues, de commerce international, elle m'a fait vivre à l'étranger. Elle m'a même poussé à écrire. Puis un jour elle m'a fait découvrir le "code". Une passion est née et elle ne m'a plus quitté.
+            <br>
+            Depuis lors mon plus grand plaisir consiste, tel un artisan, à concevoir de A à Z le site de vos rêves, celui qui reflètera au mieux votre personnalité et vous permettra de réaliser vos objectifs.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h3 class="mb-0">
+        <button (click)="toggleCaret($event)" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Développeur web
+        </button>
+      </h3>
+      <i class="fas fa-caret-right"></i>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+          <p>
+            <em>Développeur web</em>, <em>webmaster</em>, <em>programmeur de sites web</em>... Autant de termes pour désigner simplement un <em>créateur de sites internet</em>, qu'on nomme aussi <i>applications web</i>. Il peut développer des applications web classiques comme des applications conçues nativement pour le mobile, bien qu'il soit courant de se spécialiser dans l'un plus que dans l'autre.<br>En gros, le <em>développeur web</em> réalise l’ensemble des fonctionnalités techniques d'une application web classique et/ou mobile. Il ou elle conçoit des sites sur mesure ou adapte des solutions techniques existantes en fonction du projet du client.
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h3 class="mb-0">
+        <button (click)="toggleCaret($event)" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Freelance
+        </button>
+      </h3>
+      <i class="fas fa-caret-right"></i>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+          <p>
+            <span style="text-transform: uppercase">à</span> l'instar d'autres professions, le <em>développeur web</em> peut exercer son métier comme salarié pour le compte d'une enteprise ou être à son propre compte en tant que <em>freelance</em>. Dans ce cas il se doit de chercher lui-même ses clients qui peuvent être des particuliers mais aussi des entreprises. Le <em>freelance</em> ne compte pas ses heures mais c'est le prix de son indépendance. Sa devise : "Travailler 80h pour ne pas avoir à en faire 40".
+          </p>
+      </div>
+    </div>
+  </div>
+</div>

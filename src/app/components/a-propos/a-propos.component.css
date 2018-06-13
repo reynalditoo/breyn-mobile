@@ -1,0 +1,31 @@
+.card-header {
+	text-align: center;
+}
+
+h3 {
+	display: inline;
+}
+
+button {
+	font-size: 1.3rem;
+}
+
+.btn-link {
+	color: grey;
+	font-weight: bold; 
+}
+.btn-link:hover {
+	color: grey;
+	text-decoration-line: none;
+	font-weight: bold; 
+}
+
+.btn {
+	white-space: normal;
+	font-size: 1.3rem;
+}
+
+.card-body {
+	text-align: justify;
+	width: 100%;
+}

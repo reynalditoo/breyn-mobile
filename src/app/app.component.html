@@ -1,0 +1,66 @@
+<main>
+
+<app-header></app-header>
+
+  <section>
+
+      <div id="breyn"> 
+        <h1 #title>Développeur web freelance</h1>
+      </div>
+
+      <div id="a-propos"> 
+       <app-a-propos></app-a-propos>
+      </div>
+
+      <div id="prestations"> 
+       <app-prestations></app-prestations>
+      </div>
+
+      <div id="faq"> 
+       <app-faq></app-faq>
+      </div>
+
+      <div id="slogan"> 
+       <app-slogan></app-slogan>
+      </div>
+
+      <div id="portfolio"> 
+       <app-portfolio></app-portfolio>
+      </div>
+
+      <div id="contact"> 
+       <app-contact></app-contact>
+      </div>
+
+
+  </section>
+
+<app-footer></app-footer>
+
+
+</main>
+
+<!-- Le Modal est placé en dehors du main car main est position:relative et le modal ne peut fonctionner correctement à l'intérieur d'un élément en position:relative ou position:fixed 
+N.B : le modal apparait dans <app-prestations> -->
+
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+      <div class="modal-header">
+        <h4 class="modal-title">{{ mainService.dataClicked.titre }}</h4>
+        <button type="button" id="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        {{ mainService.dataClicked.body }}
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+      </div>
+      
+    </div>
+  </div>
+</div>

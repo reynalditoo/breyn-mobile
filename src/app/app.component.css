@@ -1,0 +1,66 @@
+section {
+	width: 100%;
+}
+
+section > div {
+	width: 100%;
+}
+
+#breyn {
+	background-image: url('../assets/breyn.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 700px;
+    position: relative;
+}
+h1 {
+	text-align: center;
+	font-family: 'Audiowide', arial;
+	font-size: 7.5vw;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 15px;
+	opacity: 0;
+	text-shadow: 0 0px 10px #000;
+}
+
+#a-propos {
+	height: auto;
+	background-color: #F7F7F7;
+}
+
+#prestations {
+	height: auto;
+	background-image: url('../assets/girl.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#faq {
+	background-color: #F7F7F7;
+	height: auto;
+}
+
+#slogan {
+	height: 700px;
+	background-image: url('../assets/bike.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#portfolio {
+	height: auto;
+	background-color: #F7F7F7;
+}
+
+#contact {
+	height: 700px;
+	background-image: url('../assets/smartphone.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
